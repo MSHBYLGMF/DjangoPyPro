@@ -40,7 +40,7 @@ class IssueForm(forms.ModelForm):
 		model = models.Stock
 		fields = ['issue_quantity', 'issue_to']
 
-
+#  to  commit
 class ReceiveForm(forms.ModelForm):
 	class Meta:
 		model = models.Stock
